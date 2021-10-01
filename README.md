@@ -54,4 +54,15 @@ show_tournament_participant
           
 get_tournament_matches
           
+<h3>Routes</h3>
+
+Available  routes
+get '/tournaments', to: 'tournaments#index'
+get '/tournaments/:url', to: 'tournaments#show'
+post '/tournaments/', to: 'tournaments#create'
+put '/tournaments/:url', to: 'tournaments#update'
+delete '/tournaments/:url', to: 'tournaments#destroy'
+get '/tournaments/:url/participants', to: 'tournaments#get_participants'
+get '/tournaments/:url/participants/:participant_id', to: 'tournaments#show_participant'
+get '/tournaments/:url/matches', to: 'tournaments#get_matches'
 
