@@ -47,8 +47,14 @@ https://github.com/rest-client/rest-client
 get_tournaments
           
 show_tournament
+
+create_tournaments
           
 tournament_participants 
+
+update_tournament
+
+delete_tournament
           
 show_tournament_participant
           
