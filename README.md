@@ -34,7 +34,7 @@ show_tournament
           
 tournament_participants 
           
-show_torunament_participant
+show_tournament_participant
           
 get_tournament_matches
           
