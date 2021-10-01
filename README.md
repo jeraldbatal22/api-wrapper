@@ -32,7 +32,7 @@ get_tournaments
           
 show_tournament
           
-tournament_participants
+tournament_participants 
           
 show_torunament_participant
           
