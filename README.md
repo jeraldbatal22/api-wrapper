@@ -25,6 +25,8 @@ result = RestClient::Request.execute(
           'Authorization-Type' => 'v1',
           'Content-Type' => 'application/vnd.api+json',
           'Authorization' => [Your api token])
+           
+client = ChallongeUserRails::Client.new(api_key: [YOUR API KEY])
 
 <h3>Client</h3>
 
