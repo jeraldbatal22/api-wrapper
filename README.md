@@ -1,24 +1,35 @@
-# README
+<h1>Api Wrapper using Challonge Api</h1>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Create your account here at <a src="https://challonge.com/"> and generate your own token
 
-Things you may want to cover:
+<h2>Configuration</h2>
 
-* Ruby version
+Install rest client 
 
-* System dependencies
+$ gem 'rest-client', '~> 1.8'
 
-* Configuration
+and
 
-* Database creation
+do bundle install
 
-* Database initialization
+or
 
-* How to run the test suite
+$ gem install rest-client -v 1.8.0
 
-* Services (job queues, cache servers, search engines, etc.)
+<h2> Usage </h2>
 
-* Deployment instructions
+<h3>Request</h3>
 
-* ...
+result = RestClient::Request.execute(method, url, payload, headers 'Accept' => 'application/json',
+          'Authorization-Type' => 'v1',
+          'Content-Type' => 'application/vnd.api+json',
+          'Authorization' => [Your api token])
+
+<h3>Client</h3>
+
+get_tournaments
+show_tournament
+tournament_participants
+show_torunament_participant
+get_tournament_matches
+
