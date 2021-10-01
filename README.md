@@ -74,6 +74,7 @@ get '/tournaments/:url/participants/:participant_id', to: 'tournaments#show_part
 
 get '/tournaments/:url/matches', to: 'tournaments#get_matches'
 
+
 <strong>Note</strong>:
 
 I use Postman to test my api wrapper, you can use any avaible testing source to this api wrapper.
