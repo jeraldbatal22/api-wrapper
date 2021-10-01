@@ -57,6 +57,7 @@ get_tournament_matches
 <h3>Routes</h3>
 
 Available  routes
+
 get '/tournaments', to: 'tournaments#index'
 
 get '/tournaments/:url', to: 'tournaments#show'
