@@ -20,7 +20,8 @@ $ gem install rest-client -v 1.8.0
 
 <h3>Request</h3>
 
-result = RestClient::Request.execute(method, url, payload, headers 'Accept' => 'application/json',
+result = RestClient::Request.execute(
+           method, url, payload, headers 'Accept' => 'application/json',
           'Authorization-Type' => 'v1',
           'Content-Type' => 'application/vnd.api+json',
           'Authorization' => [Your api token])
@@ -28,8 +29,13 @@ result = RestClient::Request.execute(method, url, payload, headers 'Accept' => '
 <h3>Client</h3>
 
 get_tournaments
+          
 show_tournament
+          
 tournament_participants
+          
 show_torunament_participant
+          
 get_tournament_matches
+          
 
