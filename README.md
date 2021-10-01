@@ -1,6 +1,6 @@
 <h1>Api Wrapper using Challonge Api</h1>
 
-Create your account here at <a src="https://challonge.com/"> and generate your own token
+Create your account here at https://challonge.com/ and generate your own token
 
 <h2>Configuration</h2>
 
