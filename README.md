@@ -60,9 +60,7 @@ show_tournament_participant
           
 get_tournament_matches
           
-<h3>Routes</h3>
-
-Available  routes
+<h3>Routes Available</h3>
 
 get '/tournaments', to: 'tournaments#index'
 
