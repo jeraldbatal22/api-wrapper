@@ -21,10 +21,22 @@ $ gem install rest-client -v 1.8.0
 <h3>Request</h3>
 
 result = RestClient::Request.execute(
-           method, url, payload, headers 'Accept' => 'application/json',
+           
+           method,
+           
+           url,
+           
+           payload,
+           
+           headers 'Accept' => 'application/json',
+           
           'Authorization-Type' => 'v1',
+          
           'Content-Type' => 'application/vnd.api+json',
-          'Authorization' => [Your api token])
+          
+          'Authorization' => [Your api token]
+          
+          )
 
 View more about rest client?   
 
