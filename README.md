@@ -25,7 +25,11 @@ result = RestClient::Request.execute(
           'Authorization-Type' => 'v1',
           'Content-Type' => 'application/vnd.api+json',
           'Authorization' => [Your api token])
-           
+
+View more about rest client?   
+
+https://github.com/rest-client/rest-client
+
 <h3>Client</h3>
 
 get_tournaments
