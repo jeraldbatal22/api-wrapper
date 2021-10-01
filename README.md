@@ -26,8 +26,6 @@ result = RestClient::Request.execute(
           'Content-Type' => 'application/vnd.api+json',
           'Authorization' => [Your api token])
            
-client = ChallongeUserRails::Client.new(api_key: [YOUR API KEY])
-
 <h3>Client</h3>
 
 get_tournaments
