@@ -21,8 +21,7 @@ module Challonge
       { code: result.code, status: 'Success', data: JSON.parse(result) }
       
       rescue RestClient::ExceptionWithResponse => error
-        puts data.to_json
-        puts 'gagagagagagagagagag'
+        
       { code: error.http_code, status: error.message, data:  Challonge::Errors.map(error.http_code) }
 
     end
