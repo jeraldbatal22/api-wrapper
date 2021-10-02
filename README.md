@@ -2,20 +2,6 @@
 
 Create your account here at https://challonge.com/ and generate your own token
 
-<h2>Configuration</h2>
-
-Install rest client 
-
-$ gem 'rest-client', '~> 2.1'
-
-and
-
-do bundle install
-
-or
-
-$ gem install rest-client -v 2.1.0
-
 <h2> Usage </h2>
 
 <h3>Request</h3>
